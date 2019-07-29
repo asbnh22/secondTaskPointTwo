@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApp6
+﻿namespace SecondTaskPartTwo
 {
-    partial class Form1
+    partial class MainFormPointOne
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.txtResult = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // txtResult
+            // 
+            this.txtResult.Location = new System.Drawing.Point(179, 29);
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(100, 22);
+            this.txtResult.TabIndex = 0;
+            // 
+            // MainFormPointOne
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(632, 53);
+            this.Controls.Add(this.txtResult);
+            this.Name = "MainFormPointOne";
+            this.Text = "MainFormPointOne";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox txtResult;
     }
 }
-

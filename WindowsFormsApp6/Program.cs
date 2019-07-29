@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp6
+namespace SecondTaskPartTwo
 {
     static class Program
     {
@@ -16,7 +16,9 @@ namespace WindowsFormsApp6
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainFormPointTwo());
+            //Application.Run(new MainFormPointOne());
+
         }
     }
 }

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WindowsFormsApp6.Properties
+namespace SecondTaskPartTwoPointTwo.Properties
 {
 
 
